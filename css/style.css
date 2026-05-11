@@ -36,6 +36,9 @@ h2 {
     background-color: #f0eded;
     color: #373737;
 }
+.toplinks-right {
+    float: right;
+}
 .banner {
     background-color: #29a6ee;
     color: #373737;
