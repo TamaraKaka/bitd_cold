@@ -127,52 +127,43 @@ tr:hover {
     background-color: #edf1af;
 }
 
-.contact-form {
+
+.contactForm {
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f0eded;
-    border: 1px solid #373737;
+    background-color: #ecf0f1;
     border-radius: 5px;
+    border: 1px solid #bdc3c7;
 }
 
-.contact-form label {
+.contactForm label {
+    margin-bottom: 1px;
     font-weight: bold;
 }
 
-.contact-form input,
-.contact-form select {
+.contactForm input,
+.contactForm select,
+.contactForm textarea {
     width: 100%;
-    padding: 12px 20px;
+    padding: 12px 16px;
     margin-bottom: 10px;
-    border: 1px solid #373737;
-    border-radius: 5px;
+    border: 1px solid #bdc3c7;
+    border-radius: 3px;
     font-size: 1.6em;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.contact-form textarea {
-    width: 100%;
-    height: 150px;
+.contactForm button {
+    background-color: #3498db;
+    color: white;
     padding: 12px 20px;
-    margin-bottom: 10px;
-    border: 1px solid #373737;
-    border-radius: 5px;
-    resize: vertical;
-    font-size: 1.6em;
-    font-family: Arial, sans-serif;
-}
-
-.contact-form button {
-    background-color: #29a6ee;
-    color: #373737;
-    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
     cursor: pointer;
+    font-size: 1.6em;
 }
 
-.contact-form button:hover {
-    background-color: #373737;
-    color: #f0eded;
+.contactForm button:hover {
+    background-color: #2980b9;
 }
